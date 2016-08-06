@@ -9,8 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vao.finance.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World 22" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/black"
+        android:dividerHeight="@dimen/divider_height"
+        android:id="@+id/mainListVIew">
+    </ListView>
 </RelativeLayout>
